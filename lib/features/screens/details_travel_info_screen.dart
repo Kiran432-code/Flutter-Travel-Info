@@ -117,4 +117,5 @@ Widget buildRowTile(Widget childWidget) {
   return Padding(
       padding: EdgeInsets.only(left: 80),
       child: Row(children: [FittedBox(child: childWidget)]));
+      child: Row(children)
 }
